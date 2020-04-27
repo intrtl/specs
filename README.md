@@ -1,1 +1,1 @@
-# specs
+# Intelligence Retails specs for Cocoapods
