@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'IRLib/IrLibSwift.framework'
   spec.dependency "Realm", "~> 5.5.0"
   spec.dependency "YandexMobileMetrica/Dynamic", "3.14.0"
-  spec.dependency "BugfenderSDK", "1.10.0"
+  spec.dependency "BugfenderSDK", "1.8.0"
 end
