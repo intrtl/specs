@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.dependency "OpenCV2", "4.3.0"
   spec.dependency "Intercom", "10.4.0"
   spec.dependency "Amplitude", "~> 8.8.0"
-  spec.dependency "RealmSwift", "10.47.0"
-  spec.dependency "Realm", "10.47.0"
+  spec.dependency "IRRealmSwift", "10.47.0"
+  spec.dependency "IRRealm", "10.47.0"
 end
