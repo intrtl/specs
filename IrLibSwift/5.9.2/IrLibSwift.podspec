@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/intrtl/IRLibSwift.git", :tag => "#{spec.version}" }
   spec.ios.vendored_frameworks = 'IrLibSwift.xcframework'
   spec.dependency "YandexMobileMetrica/Dynamic", "4.5.0"
+  spec.dependency "OpenCV2", "~> 4.3.0"
   spec.dependency "BugfenderSDK", "1.13.2"
   spec.dependency "Intercom", "10.4.0"
   spec.dependency "Amplitude", "~> 8.8.0"
