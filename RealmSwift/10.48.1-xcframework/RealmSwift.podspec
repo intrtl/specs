@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name                      = 'RealmSwift'
-  version                     = `10.48.1-xcframework`
+  version                     = '10.48.1-xcframework'
   s.version                   = version
   s.summary                   = 'Realm Swift is a modern data framework & database for iOS, macOS, tvOS & watchOS.'
   s.description               = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target     = '10.13'
   s.watchos.deployment_target = '4.0'
   s.tvos.deployment_target    = '11.0'
-  s.preserve_paths            = %w(build.sh)
+
   s.swift_version             = '5'
 
   s.weak_frameworks = 'SwiftUI'
