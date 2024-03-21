@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name                    = 'Realm'
-  version                   = `10.48.1-xcframework`
+  version                   = '10.48.1-xcframework'
   s.version                 = version
   s.cocoapods_version       = '>= 1.10'
   s.summary                 = 'Realm is a modern data framework & database for iOS, macOS, tvOS & watchOS.'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                               Realm is a fast, easy-to-use replacement for Core Data & SQLite. Use it with Atlas Device Sync for realtime, automatic data sync. Works on iOS, macOS, tvOS & watchOS. Learn more and get help at https://www.mongodb.com/docs/realm/sdk/swift/.
                               DESC
   s.homepage                = "https://realm.io"
-  s.source                  = { :http => 'https://github.com/realm/realm-swift/releases/download/v10.46.0/Carthage.xcframework.zip' } # for both
+  s.source                  = { :http => 'https://github.com/realm/realm-swift/releases/download/v10.48.1/Carthage.xcframework.zip' }
   s.author                  = { 'Realm' => 'realm-help@mongodb.com' }
   s.library                 = 'c++', 'z', 'compression'
   s.requires_arc            = true
@@ -55,9 +55,4 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '11.0'
 
   s.vendored_frameworks  = 'core/realm-monorepo.xcframework', 'Realm.xcframework'
-
-  s.subspec 'Headers' do |s|
-    s.source_files          = public_header_files
-    s.public_header_files   = public_header_files
-  end
 end
