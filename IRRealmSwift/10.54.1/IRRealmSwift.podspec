@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                                 Realm is a fast, easy-to-use replacement for Core Data & SQLite. Use it with Atlas Device Sync for realtime, automatic data sync. Works on iOS, macOS, tvOS & watchOS. Learn more and get help at https://www.mongodb.com/docs/realm/sdk/swift/.
                                 DESC
   s.homepage                  = "https://realm.io"
-  s.source                 = { :git => "https://github.com/intrtl/IRRealmSwift.git", :tag => "#{spec.version}" }
+  s.source                 = { :git => "https://github.com/intrtl/IRRealmSwift.git", :tag => "#{s.version}" }
   s.author                    = { 'Realm' => 'realm-help@mongodb.com' }
   s.requires_arc              = true
   s.social_media_url          = 'https://twitter.com/realm'
